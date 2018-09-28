@@ -5,7 +5,7 @@ import { Heading } from 'rebass';
 class Header extends Component {
   render() {
     return (
-      <div>
+      <div style={{marginBottom: 50}}>
         <Typist cursor={{show: false}}>
           <Heading color='grey' fontFamily='VT323, monospace' fontSize={6}>
             <span style={{color: 'orange'}}>H</span>
