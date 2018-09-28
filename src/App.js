@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
-import './App.css';
+import Router from './Router';
+import { Provider } from 'rebass';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <h1>React App</h1>
+      <div>
+        <Provider>
+          <Router />
+        </Provider>
       </div>
     );
   }
