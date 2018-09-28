@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from './Header';
 import SocialLinks from './SocialLinks';
+import FeaturedProjects from './FeaturedProjects';
 
 class Home extends Component {
   render() {
@@ -8,6 +9,7 @@ class Home extends Component {
       <div>
         <Header />
         <SocialLinks />
+        <FeaturedProjects />
       </div>
     );
   }

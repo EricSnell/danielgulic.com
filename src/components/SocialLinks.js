@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class SocialLinks extends Component {
   render() {
     return (
-      <div>
+      <div style={{marginBottom: 50}}>
         <div>
           <a href='https://twitter.com/danielgulic'>
             <i title='@danielgulic on Twitter' style={{fontSize: 50, color: '#1DA1F2', paddingRight: 10}} class="fab fa-twitter"></i>
