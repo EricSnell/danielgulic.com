@@ -14,6 +14,12 @@
   dependencies:
     "@rebass/components" "^4.0.0-1"
 
+"@rebass/grid@^6.0.0-4":
+  version "6.0.0-4"
+  resolved "https://registry.yarnpkg.com/@rebass/grid/-/grid-6.0.0-4.tgz#95bb4367ddfd0d955e256fcd46ea26adb02411eb"
+  dependencies:
+    styled-system "^3.1.6"
+
 abab@^1.0.3:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/abab/-/abab-1.0.4.tgz#5faad9c2c07f60dd76770f71cf025b62a63cfd4e"
@@ -6488,7 +6494,7 @@ styled-system@3.0.3:
   dependencies:
     prop-types "^15.6.2"
 
-styled-system@^3.0.1:
+styled-system@^3.0.1, styled-system@^3.1.6:
   version "3.1.6"
   resolved "https://registry.yarnpkg.com/styled-system/-/styled-system-3.1.6.tgz#286448a62932b1f7ed98075d1a520afd52da97d1"
   dependencies:
